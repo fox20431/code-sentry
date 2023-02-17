@@ -1,0 +1,10 @@
+
+# task name
+name: "Demo Task"
+# the script run after file changed
+scripts: 
+  - "echo Hello"
+  - "echo 黑天白夜"
+# the files watch
+scopes: 
+  - "./*"
